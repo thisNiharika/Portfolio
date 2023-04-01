@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+    background-color: #f8f9fa;
+}
+h1 {
+    color:rgb(37, 204, 149);
+}
+
+.card-deck {
+margin:40px;
+}
+.card-text{
+   word-wrap: break-word;
+   white-space: pre-wrap; 
+}
+
+.nav-link{
+    float:right;
+}
