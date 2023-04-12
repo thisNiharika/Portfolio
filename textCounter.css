@@ -1,11 +1,14 @@
 body{
+    background-color: rgb(221, 252, 209)!important;
+}
+.body-view{
     margin:0px;
     display:flex;
     justify-content: center;
     height:100vh;
     align-items: center;
-    background-color: rgb(221, 252, 209) !important;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    flex-direction: column;
 }
 
 .container{
@@ -45,4 +48,16 @@ body{
 
 .vowel-counter{
     color: rgb(170, 170, 11);
+}
+
+.button{
+    background: black;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+.alert{
+    font-family: sans-serif;
+    color: red;
 }

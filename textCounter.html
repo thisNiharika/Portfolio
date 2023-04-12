@@ -10,6 +10,10 @@
     <title>Text Counter</title>
 </head>
 <body>
+    
+   
+    <div class="body-view">
+    <div class="alert"> You have exceeded your max charater limit </div>
     <div class="container">
         <h2>Real-time Charater Counter </h2>
         <textarea class="textarea" id="textarea" placeholder="Please write your text here...."></textarea>
@@ -22,8 +26,9 @@
         </div>
         <span>Enter the max lenght you require:</span>
         <input type="number" id="input" class="input">
-        <button onclick="updateCounter()"> set</button>
+        <button class="button" onclick="updateCounter()"> Set</button>
     </div>
+</div>
    
     <script src="textCounter.js"></script>
 </body>
