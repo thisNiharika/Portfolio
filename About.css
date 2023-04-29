@@ -24,3 +24,22 @@ margin:40px;
 .card{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+.profileimg{
+    display: block;
+    
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.des{
+    padding:30px;
+}
+
+.prt1{
+    padding: 57px;
+    background: #fff0fe;
+}
+.prt1 h2{
+    font-family: "Times New Roman", Times, serif;
+}
