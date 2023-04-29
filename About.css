@@ -1,7 +1,11 @@
 body {
-    margin: auto;
+    
     background-color: #f8f9fa;
 }
+/* .container{
+    margin: auto;
+    width: 800px;
+} */
 h1 {
     color:rgb(37, 204, 149);
 }
@@ -16,4 +20,7 @@ margin:40px;
 
 .nav-link{
     float:right;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
